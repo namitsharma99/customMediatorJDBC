@@ -13,6 +13,12 @@
 		<CApp.type>lib/synapse/mediator</CApp.type>
 	</properties>
 	<dependencies>
+		<!-- https://mvnrepository.com/artifact/org.json/json -->
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>20160810</version>
+		</dependency>
 		<dependency>
 			<groupId>commons-io.wso2</groupId>
 			<artifactId>commons-io</artifactId>
